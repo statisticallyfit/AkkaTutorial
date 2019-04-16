@@ -1,0 +1,39 @@
+*.class
+*.log
+
+# Maven/sbt output directory
+target
+dist
+
+target/*
+ivyrepo/*
+sbtboot/*
+project/.sbtboot/*
+project/.ivy/*
+project/.boot/*
+project/target/*
+project/project/target/*
+
+# Mac
+*.DS_Store
+
+# IntelliJ
+.idea
+.idea_modules
+
+# Eclipse
+.cache
+.classpath
+*.swp
+.project
+.settings
+.target
+
+# Vagrant
+.vagrant
+vagrant/.bashrc
+vagrant/sbt-launch.jar
+
+tmp
+
+
