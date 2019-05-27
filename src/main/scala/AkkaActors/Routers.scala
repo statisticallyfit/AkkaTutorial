@@ -1,4 +1,4 @@
-package Actors
+package AkkaActors
 
 import akka.actor._
 import akka.util.Timeout
